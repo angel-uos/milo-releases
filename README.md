@@ -7,14 +7,23 @@ never leave it, and sessions are stored encrypted.
 This repository only publishes the ready-to-use app. Download the latest version from
 [Releases](https://github.com/angel-uos/milo-releases/releases/latest).
 
-## Install or update
+## Install
 
-1. Download `MILO-<version>.zip` from the latest release and open it.
-2. Quit MILO if it is running, then drag **MILO** into **Applications** (choose **Replace** when updating).
-   Your sessions are kept: they are stored outside the app.
-3. The first time, right-click MILO and choose **Open**: the app is not signed with an Apple Developer ID,
+1. Download `MILO-<version>.zip` from the [latest release](https://github.com/angel-uos/milo-releases/releases/latest).
+2. Move the zip file into your **Applications** folder.
+3. In **Applications**, double-click the zip file to unzip it. This creates **MILO**.
+4. Delete the zip file (drag it to the **Bin**): only **MILO** is needed.
+5. The first time, right-click **MILO** and choose **Open**: the app is not signed with an Apple Developer ID,
    so macOS asks you to confirm.
-4. When you first press Start, allow microphone access.
+6. When you first press **Start**, allow microphone access.
+
+## Update to a new version
+
+1. Quit MILO.
+2. In **Applications**, drag the old **MILO** to the **Bin**. Your sessions are kept: they are stored outside
+   the app.
+3. Then follow steps 1–5 above. (If the old MILO is still there when you unzip, macOS creates a second copy
+   called "MILO 2" instead of replacing it.)
 
 ## Requirements
 
